@@ -18,7 +18,7 @@ load_dotenv()
 # configuring your instance of Amazon bedrock, selecting the CLI profile, modelID, endpoint url and region.
 llm = Bedrock(
     credentials_profile_name=os.getenv("profile_name"),
-    model_id="amazon.titan-text-express-v1",
+    model_id="anthropic.claude-instant-v1",
     endpoint_url="https://bedrock-runtime.us-east-1.amazonaws.com",
     region_name="us-east-1",
     verbose=True
