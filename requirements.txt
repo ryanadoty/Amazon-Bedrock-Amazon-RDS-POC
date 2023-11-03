@@ -60,7 +60,7 @@ overrides==7.4.0
 packaging==23.2
 pandas==2.1.1
 Pillow==10.0.1
-pip==23.2.1
+pip==23.3
 posthog==3.0.2
 protobuf==4.24.4
 psycopg2-binary==2.9.9
